@@ -8,7 +8,7 @@
     </div>
     </router-link>
     <div class="container">
-    <img src = "/static/jf.jpg" width="300">
+    
     <div class="columns is-centered is-multiline">
       <div class="column is-4" :key="key" v-for="(Product, key) in Products">
         <div class="card widthcard is-centered">
